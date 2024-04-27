@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <title>Meu Portfólio</title>
+    
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>DeveloperFullStack</h1>
+    </div>
+
+    <div class="skills-container">
+        <span class="skill html">HTML</span>
+        <span class="skill css">CSS</span>
+        <span class="skill javascript">JavaScript</span>
+        <span class="skill react">React</span>
+        <span class="skill nodejs">Node.js</span>
+      </div>
+
+    <div class="sobre-mim-container">
+        <div class="foto-perfil">
+            <!-- Substitua '5585996873503' pelo seu número de telefone com código do país -->
+            <!-- Substitua 'sua_mensagem' pela mensagem inicial que deseja enviar -->
+            <a href="https://api.whatsapp.com/send?phone=5585996873503&text=Olá, gostaria de saber mais sobre seus serviços" target="_blank">
+                <img src="imagem/IMG-20240425-WA0008.jpg" alt="Foto de perfil">
+            </a>
+        </div>
+    <div class="sobre-mim">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou um <strong>Desenvolvedor FullStack entusiasta</strong>, dedicado a forjar experiências digitais que deixam uma impressão duradoura. Minha jornada profissional é marcada por uma <strong>versatilidade técnica</strong> abrangente, com proficiência em tecnologias de ponta como <strong>Node.js, React e MongoDB</strong>. Minha carreira evoluiu através de papéis desafiadores, desde <strong>técnico de suporte até analista de redes e especialista em bancos de dados</strong> com Mysql e Oracle.</p>
+        <p>Com uma sólida formação em <strong>Segurança da Informação</strong>, dei um salto significativo na minha carreira, agora dominando um arsenal de linguagens de programação e ferramentas, incluindo <strong>HTML, CSS, JavaScript, React.js, PHP, Python, Node.js</strong>, além de <strong>Git e Github</strong>. Estou sempre em busca de <strong>novos desafios</strong> e oportunidades para aplicar minha paixão por tecnologia em projetos inovadores e colaborativos.</p>
+        
+    </div>
+    </div>
+    <!-- Carrossel Swiper para projetos -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Cada projeto individual será um slide -->
+            <div class="swiper-slide">
+                <h3>Projeto de E-Commerce</h3>
+                <p>Desenvolvimento de uma plataforma de e-commerce com HTML5,CSS, JavaScript, React e Node.js. Integração com APIs de pagamento e gerenciamento de estoque.</p>
+            </div>
+            <div class="swiper-slide">
+                <h3>Aplicativo de Hamburgueria</h3>
+                <p>Desenvolvimento de um site responsivo para uma Hamburgueria. Utilização de Html5,Css,JavaScript.</p>
+            </div>
+            <div class="swiper-slide">
+                <h3>Website Corporativo</h3>
+                <p>Criação de um site institucional para uma empresa de consultoria. Design responsivo e otimização para SEO.</p>
+            </div>
+            <!-- Adicione mais slides conforme necessário -->
+        </div>
+        <!-- Controle de navegação -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <!-- Seção de Contato -->
+    <div class="contato-container">
+       
+        <div class="contato-info">
+            <h2>Contato</h2>
+            <p>Estou disponível para freelancing e projetos colaborativos. Se você estiver interessado em trabalhar comigo, não hesite em entrar em contato Click na Foto.</p>
+            <p>Email:marciooliveira9191@gmail.com</p>
+        </div>
+    </div>
+    <!-- Scripts do Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+    <!-- Inicialização do Swiper JS -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="index.js"></script>
+<!-- Inicialização do Swiper JS -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+</body>
+</html>
+ 
+             
